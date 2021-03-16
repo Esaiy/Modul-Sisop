@@ -861,7 +861,7 @@ Penjelasan :
 ![parameter crontab](gambar/syntax-crontab.png "parameter crontab")
 3. To see the list of cron jobs, type `crontab -l`
 
-Example of commands that crontab runs
+Example of commands that crontab runs  
 ![contoh crontab](gambar/contoh-crontab.png "contoh crontab")   
 Penjelasan :
 * every 00.00, enter the result from `ls /home/tamtama` to file `/home/tamtama/list_files`
