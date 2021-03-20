@@ -850,7 +850,8 @@ Output:
 Cron is a daemon service which allows Linux and Unix user to run a certain command or _script_ at a any given time automatically. Commands or scripts which is executed is called cron jobs.
 Crontab syntax :
 `crontab [-u user] [-l | -r | -e] [-i]`
-Penjelasan :
+
+Explanation :
 * `-l` to display the content of a crontab file
 * `-r` to delete a crontab file
 * `-e` to modify or create a crontab file if it does not already exist
@@ -863,7 +864,8 @@ Penjelasan :
 
 Example of commands that crontab runs
 ![contoh crontab](gambar/contoh-crontab.png "contoh crontab")   
-Penjelasan :
+
+Explanation :
 * every 00.00, enter the result from `ls /home/tamtama` to file `/home/tamtama/list_files`
 * every week, run the file `script.sh` in folder `/home/tamtama`
 
@@ -882,7 +884,7 @@ awk is a scripting language used to process data and generate reports. The awk l
 ## 3.1 Running AWK program
 Syntax:
 ```bash
-awk options 'selection _criteria {action }' input-file > output-file
+awk options 'selection_criteria {action }' input-file > output-file
 ```
 ### How the AWK works
 - Awk read the lines in a file.
